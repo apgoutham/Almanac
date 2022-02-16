@@ -61,3 +61,7 @@ In local system:
 `screen -ls` : list all the running screen sessions from bash
 
 `screen -r session_number` : run the screen of the particular session_num
+
+# Linux
+
+`sudo dpkg -i example.deb` : install using .deb files
