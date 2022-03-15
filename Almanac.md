@@ -39,6 +39,11 @@ In local system:
 
 `lsof -ti:8080 | xargs kill -9` : clears any process running on port 8080
 
+Convert ipynb to py
+
+`jupyter nbconvert --to script file.ipynb file.py`
+
+
 
 # Screen
 
