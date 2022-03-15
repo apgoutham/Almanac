@@ -67,3 +67,7 @@ In local system:
 `sudo dpkg -i example.deb` : install using .deb files
 
 `rename 's/[M]//g' *.jpg` : rename all jpg filenames with replacing `M` with nothing
+
+
+# Python
+In case of errors like `matplotlib: cannot connect to X server localhost:10.0` : In terminal, type: `export DISPLAY=localhost:11.0`
