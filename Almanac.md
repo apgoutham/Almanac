@@ -73,6 +73,7 @@ Convert ipynb to py
 
 `rename 's/[M]//g' *.jpg` : rename all jpg filenames with replacing `M` with nothing
 
+`for f in *; do mv $f $f.jpg; done` : adds .jpg extension at last, to all the files in the directory
 
 # Python
 In case of errors like `matplotlib: cannot connect to X server localhost:10.0` : In terminal, type: `export DISPLAY=localhost:11.0`
