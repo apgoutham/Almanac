@@ -81,4 +81,5 @@ In case of errors like `matplotlib: cannot connect to X server localhost:10.0` :
 To print: 001_06 002_06 // 001_06 002_07 // etc..
 `:for i in range(1,100) | for j in range(6,10) | for k in range(i+1,100) | for l in range(6,10) | put = map(range(i,i), 'printf(''%03d'',v:val)')[0].'_'.map(range(j,j), 'printf(''%02d'', v:val)')[0].' '.map(range(k,k), 'printf(''%03d'',v:val)')[0].'_'.map(range(l,l), 'printf(''%02d'', v:val)')[0] | endfor|endfor|endfor|endfor`
 
+`:qa` : close all tabs
 
