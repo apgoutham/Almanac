@@ -84,3 +84,29 @@ To print: 001_06 002_06 // 001_06 002_07 // etc..
 
 `:qa` : close all tabs
 
+# LaTeX
+To draw Table of Contents as a Table with borders
+
+`\usepackage{etoc}
+\newcommand{\mktoc}{% Cover page
+\section*{Contents}
+\begin{center}
+    \etocsetstyle{section}
+    {}
+    {\etociffirst{ \\ \hline}{\\\hline}}
+    {\etocnumber & \etocname & \etocnumber }
+    {}
+    \etocsettocstyle{\hypersetup{}
+    \begin{tabular}{|c|p{0.7\textwidth}|c|}
+        % \multicolumn{3}{c}{\titleoftoc} \\
+        \hline 
+        \multicolumn{1}{|c|}{\bfseries Sl No} &
+        {\bfseries Particulars} &
+        {\bfseries Page}
+    }
+    {\\ \hline\end{tabular}}
+\etocglobaldefs
+\etocsetnexttocdepth{1}
+\tableofcontents
+\end{center}
+}`
