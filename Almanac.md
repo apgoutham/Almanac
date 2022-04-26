@@ -87,7 +87,8 @@ To print: 001_06 002_06 // 001_06 002_07 // etc..
 # LaTeX
 To draw Table of Contents as a Table with borders
 
-`\usepackage{etoc}
+```
+\usepackage{etoc}
 \newcommand{\mktoc}{% Cover page
 \section*{Contents}
 \begin{center}
@@ -109,4 +110,5 @@ To draw Table of Contents as a Table with borders
 \etocsetnexttocdepth{1}
 \tableofcontents
 \end{center}
-}`
+}
+```
