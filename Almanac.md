@@ -75,6 +75,8 @@ Convert ipynb to py
 
 `for f in *; do mv $f $f.jpg; done` : adds .jpg extension at last, to all the files in the directory
 
+`set path = (/grid/common/pkgs/python/v2.7.10p1/bin/ $path)` Give path to VM to run python
+
 # Python
 In case of errors like `matplotlib: cannot connect to X server localhost:10.0` : In terminal, type: `export DISPLAY=localhost:11.0`
 
