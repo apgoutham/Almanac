@@ -86,6 +86,12 @@ To print: 001_06 002_06 // 001_06 002_07 // etc..
 
 `:qa` : close all tabs
 
+`:ls` & `:tabnew +Nbuf` : To open a recently closed tab
+
+`:tabm i` : Move a tab to an absolute position
+
+`:tabm +/-i` : Move a tab to a relative position
+
 # LaTeX
 To draw Table of Contents as a Table with borders
 
